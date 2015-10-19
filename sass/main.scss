@@ -1,0 +1,43 @@
+@import "bourbon";
+@import "font-awesome";
+
+body {
+  font-size: 1.7em;
+}
+
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #61B350;
+  display: inline-block;
+}
+
+body ul li {
+    display: inline-block;
+    color: white;
+    width: 65px;
+    height: 65px;
+    border-left: 1px solid #84C479;
+    border-top: 1px solid #84C479;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: -7px;
+}
+
+body ul li:hover {
+  background-color: #83C178;
+}
+
+body ul li div {
+  padding-top: 17px;
+  padding-left: 6px;
+}
+
+.calculator {
+
+}
+
+.actions {
+  background-color: #83C178;
+}
